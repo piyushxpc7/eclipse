@@ -20,7 +20,6 @@
 		278729B12CC64995000763C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		278729B32CC64996000763C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278729B62CC64996000763C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		278729BD2CC64AEB000763C0 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Names.swift; path = "../../iOS Projects/Names.swift"; sourceTree = "<group>"; };
 		278729BE2CC64AEF000763C0 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +55,6 @@
 			children = (
 				278729AF2CC64995000763C0 /* EclipseApp.swift */,
 				278729B12CC64995000763C0 /* ContentView.swift */,
-				278729BD2CC64AEB000763C0 /* Names.swift */,
 				278729B32CC64996000763C0 /* Assets.xcassets */,
 				278729B52CC64996000763C0 /* Preview Content */,
 			);
