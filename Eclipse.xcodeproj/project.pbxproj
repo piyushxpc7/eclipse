@@ -12,6 +12,16 @@
 		278729B42CC64996000763C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278729B32CC64996000763C0 /* Assets.xcassets */; };
 		278729B72CC64996000763C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278729B62CC64996000763C0 /* Preview Assets.xcassets */; };
 		278729BF2CC64AEF000763C0 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278729BE2CC64AEF000763C0 /* Names.swift */; };
+		278729C32CC64FFB000763C0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278729C22CC64FFB000763C0 /* HomeView.swift */; };
+		278729C52CC655D6000763C0 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278729C42CC655D6000763C0 /* UserProfileView.swift */; };
+		E42228172CCF8660002CD34B /* authorpref.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42228162CCF8660002CD34B /* authorpref.swift */; };
+		E42228192CCF86F5002CD34B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42228182CCF86F5002CD34B /* Login.swift */; };
+		E422281B2CCF874A002CD34B /* create_account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422281A2CCF874A002CD34B /* create_account.swift */; };
+		E422281D2CCF8791002CD34B /* explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422281C2CCF8791002CD34B /* explore.swift */; };
+		E422281F2CCF87AE002CD34B /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422281E2CCF87AE002CD34B /* home.swift */; };
+		E42228212CCF87CF002CD34B /* onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42228202CCF87CF002CD34B /* onboarding.swift */; };
+		E42228232CCF87E7002CD34B /* prefscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42228222CCF87E7002CD34B /* prefscreen.swift */; };
+		E42228252CCF883A002CD34B /* swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42228242CCF883A002CD34B /* swipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,16 @@
 		278729B32CC64996000763C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278729B62CC64996000763C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		278729BE2CC64AEF000763C0 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		278729C22CC64FFB000763C0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		278729C42CC655D6000763C0 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		E42228162CCF8660002CD34B /* authorpref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authorpref.swift; sourceTree = "<group>"; };
+		E42228182CCF86F5002CD34B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E422281A2CCF874A002CD34B /* create_account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_account.swift; sourceTree = "<group>"; };
+		E422281C2CCF8791002CD34B /* explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore.swift; sourceTree = "<group>"; };
+		E422281E2CCF87AE002CD34B /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		E42228202CCF87CF002CD34B /* onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding.swift; sourceTree = "<group>"; };
+		E42228222CCF87E7002CD34B /* prefscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefscreen.swift; sourceTree = "<group>"; };
+		E42228242CCF883A002CD34B /* swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,8 @@
 		278729AE2CC64995000763C0 /* Eclipse */ = {
 			isa = PBXGroup;
 			children = (
+				278729C12CC64F9B000763C0 /* Views */,
+				278729C02CC64F93000763C0 /* Models */,
 				278729AF2CC64995000763C0 /* EclipseApp.swift */,
 				278729B12CC64995000763C0 /* ContentView.swift */,
 				278729B32CC64996000763C0 /* Assets.xcassets */,
@@ -68,6 +90,30 @@
 				278729B62CC64996000763C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		278729C02CC64F93000763C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		278729C12CC64F9B000763C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				278729C22CC64FFB000763C0 /* HomeView.swift */,
+				E42228162CCF8660002CD34B /* authorpref.swift */,
+				278729C42CC655D6000763C0 /* UserProfileView.swift */,
+				E42228182CCF86F5002CD34B /* Login.swift */,
+				E422281A2CCF874A002CD34B /* create_account.swift */,
+				E422281C2CCF8791002CD34B /* explore.swift */,
+				E422281E2CCF87AE002CD34B /* home.swift */,
+				E42228202CCF87CF002CD34B /* onboarding.swift */,
+				E42228222CCF87E7002CD34B /* prefscreen.swift */,
+				E42228242CCF883A002CD34B /* swipe.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42228192CCF86F5002CD34B /* Login.swift in Sources */,
+				E422281D2CCF8791002CD34B /* explore.swift in Sources */,
+				278729C52CC655D6000763C0 /* UserProfileView.swift in Sources */,
 				278729BF2CC64AEF000763C0 /* Names.swift in Sources */,
+				E42228232CCF87E7002CD34B /* prefscreen.swift in Sources */,
+				278729C32CC64FFB000763C0 /* HomeView.swift in Sources */,
+				E42228172CCF8660002CD34B /* authorpref.swift in Sources */,
 				278729B22CC64995000763C0 /* ContentView.swift in Sources */,
 				278729B02CC64995000763C0 /* EclipseApp.swift in Sources */,
+				E422281F2CCF87AE002CD34B /* home.swift in Sources */,
+				E422281B2CCF874A002CD34B /* create_account.swift in Sources */,
+				E42228252CCF883A002CD34B /* swipe.swift in Sources */,
+				E42228212CCF87CF002CD34B /* onboarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
